@@ -87,12 +87,12 @@
       top: 0;
       left: 0;
       width: 100%;
+      padding-bottom: 56.25%; 
       height: 100%;
       object-fit: cover;
       z-index: -1;
   }
 
-  /* Optional: Style the content inside the .main-banner div */
   .main-banner .container {
       position: absolute;
       margin-top: 30px;
@@ -101,6 +101,19 @@
       transform: translate(-50%, -50%);
       text-align: center;
       color: #fff !important;
+  }
+  @media (max-width: 767px) {
+    .main-banner .container {
+      margin-top: 100px;
+  }
+  .main-banner video {
+    padding-bottom: 75%; /* 4:3 aspect ratio for smaller screens */
+}
+  }
+  @media (max-width: 576px) {
+    .main-banner video {
+        padding-bottom: 75%; /* 4:3 aspect ratio for smaller screens */
+    }
   }
 
   </style>
@@ -160,7 +173,7 @@
         </div>
       </div>
     </div>
-</div>
+  </div>
   <!-- <div class="main-banner" id="top">
     <video autoplay loop muted>
       <source src="assets/images/background-video.mp4">
