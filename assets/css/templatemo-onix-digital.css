@@ -307,7 +307,7 @@ header
 }
 
 .header-area {
-  background-color: #fafafa;
+  background-color: #000;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -391,7 +391,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #2a2a2a;
+  color: #fff;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -404,7 +404,7 @@ header
 }
 
 .header-area .main-nav .nav li a {
-  color: #2a2a2a;
+  color: #fff;
 }
 
 .header-area .main-nav .nav li:hover a,
@@ -859,7 +859,7 @@ Banner Style
 --------------------------------------------- 
 */
 
-.main-banner {
+/* .main-banner {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -889,7 +889,7 @@ Banner Style
   top: 100px;
   width: 819px;
   height: 674px;
-}
+} */
 
 .main-banner .item {
   margin-right: 45px;
@@ -1580,7 +1580,7 @@ Video
   border-radius: 23px;
 }
 
-.our-videos .nacc .thumb iframe {
+.our-videos .nacc .thumb .iframe {
   border-radius: 23px;
   height: 675px;
 }
